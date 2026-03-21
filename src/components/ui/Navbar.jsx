@@ -31,10 +31,10 @@ export const Navbar = () => {
                 <NavLink
                   to={curNav.to}
                   className={({ isActive }) =>
-                    `flex font-medium text-xl gap-2 items-center ${isActive ? "text-blue-400 font-semibold" : "text-secondary-txt dark:text-secondary-txt-dark"}`
+                    `flex font-medium text-xl gap-2 items-center  md:text-lg ${isActive ? "text-blue-400 font-semibold" : "text-secondary-txt dark:text-secondary-txt-dark"}`
                   }
                 >
-                  <Icon size={21} />
+                  <Icon size={20} />
                   <span>{curNav.name}</span>
                 </NavLink>
               </li>

@@ -10,8 +10,8 @@ import { Input } from "./ui/Input";
 export const Header = () => {
   return (
     <>
-      <header className="bg-surface dark:bg-surface-dark h-12 md:bg-main md:dark:bg-main-dark md:h-10">
-        <div className="flex items-center justify-between w-full h-full px-3">
+      <header className="bg-surface dark:bg-surface-dark h-12 md:bg-main md:dark:bg-main-dark">
+        <div className="flex items-center justify-between w-full h-full px-3 md:px-0">
           <section className="md:hidden">
             <Logo />
           </section>
